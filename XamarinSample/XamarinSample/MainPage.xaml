@@ -18,7 +18,7 @@
             <Label Text="the following information to register for the event:"
                 FontSize="16"/>
             <Label Text="Personal Information:"
-                FontSize="16"
+                FontSize="24"
                 TextColor="Blue"/>
             <Label Text="Enter First Name:"
                 FontSize="16"/>
@@ -32,6 +32,32 @@
                 FontSize="16"/>
             <Entry Placeholder=""
                 FontSize="16"/>
+            <Label Text="Address:"
+                FontSize="24"
+                TextColor="Blue"/>
+            <Label Text="Address:"
+                FontSize="16"/>
+            <Entry Placeholder=""
+                FontSize="16"/>
+            <Label Text="City:"
+                FontSize="16"/>
+            <Entry Placeholder=""
+                FontSize="16"/>
+            <Label Text="State:"
+                FontSize="16"/>
+            <Entry Placeholder=""
+                FontSize="16"/>
+            <Label Text="Zip Code:"
+                FontSize="16"/>
+            <Entry Placeholder=""
+                FontSize="16"/>
+            <Label Text="Notes:"
+                FontSize="16"/>
+            <Editor HeightRequest="100"
+                FontSize="16"/>
+            <Button Text="Submit"
+                TextColor="Red"
+                BackgroundColor="Gray"/>
         </StackLayout>
     </ScrollView>
 	
