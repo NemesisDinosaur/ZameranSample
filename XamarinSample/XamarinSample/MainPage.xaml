@@ -3,9 +3,18 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:XamarinSample"
              x:Class="XamarinSample.MainPage">
-
-	<Label Text="Hello World!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <ScrollView>
+        <StackLayout
+            VerticalOptions="FillAndExpand"
+            HorizontalOptions="FillAndExpand"
+            Spacing="5"
+            Padding="5">
+            <Label Text="Registration Form" 
+                FontSize="32"
+                TextColor="Red"
+                FontAttributes="Bold"/>
+        </StackLayout>
+    </ScrollView>
+	
 
 </ContentPage>
