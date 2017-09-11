@@ -13,6 +13,26 @@
                 FontSize="32"
                 TextColor="Red"
                 FontAttributes="Bold"/>
+            <Label Text="Welcome to the registration form! Please fill out"
+                FontSize="16"/>
+            <Label Text="the following information to register for the event:"
+                FontSize="16"/>
+            <Label Text="Personal Information:"
+                FontSize="16"
+                TextColor="Blue"/>
+            <Label Text="First name:"
+                FontSize="16"/>
+            <Entry Placeholder="First name"
+                FontSize="16"/>
+            <Label Text="Enter middle name:"
+                FontSize="16"/>
+            <Entry Placeholder=""
+                FontSize="16"/>
+            <Label Text="Last name:"
+                FontSize="16"/>
+            <Entry Placeholder="Last name"
+                FontSize="16"
+                FontAttributes="Italic"/>
         </StackLayout>
     </ScrollView>
 	
