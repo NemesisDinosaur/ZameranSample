@@ -20,19 +20,18 @@
             <Label Text="Personal Information:"
                 FontSize="16"
                 TextColor="Blue"/>
-            <Label Text="First name:"
-                FontSize="16"/>
-            <Entry Placeholder="First name"
-                FontSize="16"/>
-            <Label Text="Enter middle name:"
+            <Label Text="Enter First Name:"
                 FontSize="16"/>
             <Entry Placeholder=""
                 FontSize="16"/>
-            <Label Text="Last name:"
+            <Label Text="Enter Middle Name:"
                 FontSize="16"/>
-            <Entry Placeholder="Last name"
-                FontSize="16"
-                FontAttributes="Italic"/>
+            <Entry Placeholder=""
+                FontSize="16"/>
+            <Label Text="Enter Last Name:"
+                FontSize="16"/>
+            <Entry Placeholder=""
+                FontSize="16"/>
         </StackLayout>
     </ScrollView>
 	
