@@ -14,9 +14,15 @@ namespace XamarinSample
             InitializeComponent();
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+        private void submitButton_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new SuccessPage());
         }
+
+        private void addButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AdditionPage());
+        }
+
     }
 }

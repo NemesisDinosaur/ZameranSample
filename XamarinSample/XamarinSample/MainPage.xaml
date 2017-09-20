@@ -55,10 +55,15 @@
                 FontSize="16"/>
             <Editor HeightRequest="100"
                 FontSize="16"/>
-            <Button Text="Submit"
+            <Button x:Name="submitButton" Text="Submit"
                 TextColor="Red"
                 BackgroundColor="Gray"
-                    Clicked="Button_Clicked"/>
+                    Clicked="submitButton_Clicked"/>
+            <Button x:Name="addButton" Text="Add Numbers"
+                TextColor="Red"
+                BackgroundColor="Gray"
+                    Clicked="addButton_Clicked"/>
+
         </StackLayout>
     </ScrollView>
 	

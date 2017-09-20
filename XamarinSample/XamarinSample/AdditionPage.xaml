@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinSample.AdditionPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Enter two numbers, then click the button to calculate their sum." />
+            <Entry x:Name="firstNumber"
+                   Placeholder="Enter the first number"
+                   Keyboard="Numeric"/>
+            <Entry x:Name="secondNumber"
+                   Placeholder="Enter the first number"
+                   Keyboard="Numeric"/>
+            <Button x:Name="addButton"
+                    Text="Calculate Sum"
+                    Clicked="addButton_Clicked"/>
+            <Label x:Name="resultLabel"
+                   FontSize="Large"
+                   Text=""/>
+            <Button x:Name="returnButton"
+                    Text="Return"
+                    Clicked="returnButton_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
