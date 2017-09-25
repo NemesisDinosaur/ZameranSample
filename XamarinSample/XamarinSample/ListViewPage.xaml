@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinSample.ListViewPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Enter an item to add to your shopping list:"
+                FontSize="16"/>
+            <Entry x:Name="newItemEntry"
+                FontSize="16"/>
+            <Button x:Name="addButton" Text="Add Item"
+                TextColor="Red"
+                BackgroundColor="Gray"
+                    Clicked="addButton_Clicked"/>
+            <Button x:Name="clearButton" Text="Clear Shopping List"
+                TextColor="Red"
+                BackgroundColor="Gray"
+                    Clicked="clearButton_Clicked"/>
+            <ListView x:Name="shoppingListListView"/>
+            <Button x:Name="Return" Text="Return"
+                TextColor="Red"
+                BackgroundColor="Gray"                    
+                    Clicked="Return_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

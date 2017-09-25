@@ -24,5 +24,9 @@ namespace XamarinSample
             Navigation.PushAsync(new AdditionPage());
         }
 
+        private void listButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ListViewPage());
+        }
     }
 }
