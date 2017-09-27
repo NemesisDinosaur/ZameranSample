@@ -24,7 +24,7 @@ namespace XamarinSample
         {
             if (String.IsNullOrEmpty(newItemEntry.Text))
             {
-                
+                DisplayAlert("Error", "You must enter an item", "OK");
             }
             else
             {
